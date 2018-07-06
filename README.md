@@ -49,9 +49,9 @@ Start up the Kubernetes cluster with Minikube, giving it some extra resources.
 
 #### Step2
 
-Enable the Minikube add-ons Heapster and Ingress.
+Enable the Minikube add-ons Metrics-server and Ingress.
 
-`minikube addons enable heapster; minikube addons enable ingress`
+`minikube addons enable metrics-server; minikube addons enable ingress`
 
 #### Step3
 
